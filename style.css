@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: white;
+}
+.center {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 340px;
+  height: 380px;
+  background-color: white;
+  border-radius: 10px;
+}
+.center h1 {
+  color:  rgb(0,121,200);
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 0 5px 0;
+}
+.center form {
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+form .txt_field {
+  position: relative;
+  margin: 10px 0 20px 0;
+}
+.txt_field input {
+  background-color: rgb(240,240,240);
+  font-size: 11px;
+  width: 100%;
+  margin: 0 0 10px 0;
+  padding: 5px 5px;
+  height: 30px;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px silver;
+}
+.lupa {
+  text-align: center;
+}
+.lupa a{
+  color: #0095f6;
+  text-decoration: none;
+}
+.but1 {
+  width: 104%;
+  background-color: #0095f6;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+}
+.garis {
+  width: 100%;
+  border-bottom: 1px solid silver;
+  background-color: silver;
+}
+.but2 {
+  width: 104%;
+  background-color: rgb(52,197,49);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+}
+.center .belum {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 14px;
+}
+.lupa {
+  margin-top: 20px;
+}
