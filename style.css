@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 200px;
+  margin: 15px auto;
+}
+.formulir {
+  border: 1px solid black;
+  padding: 5px;
+}
+label {
+  text-align: center;
+}
